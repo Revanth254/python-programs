@@ -1,0 +1,10 @@
+str1=str(input("enter any string1:"))
+str2=str(input("enter any string2:"))
+x=[str1[i] for i in range(0,len(str1))]
+x.sort()
+y=[str2[i] for i in range(0,len(str2))]
+y.sort()
+if(x == y):
+    print("True: It is a anagaram")
+else:
+    print("False:It is not a angaram")
